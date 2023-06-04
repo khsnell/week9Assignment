@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Time!</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+</head>
+<body>
+    <div class="container text-center bg-light">
+        <h1 class="mb-4">Pizza Time!</h1>
+        <p>Welcome to Pizza Time! This is your one-stop-shop for all your pizza related desires.</p>
+        <img class="img-fluid mb-0" src="images/pizza-background.jpg" alt="Picture of pizza." />
+        <nav class="navbar navbar-expand-sm bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand text-bold" href="#">Pizza Time!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pizza.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">Customer Log</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="checkout.html">Checkout</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <h5 class="mb-5 mt-5">This is a log of all Pizza Time customers:</h5>
+        <table class="table table-striped mb-5">
+            <tr class="table-danger">
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Pizza</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>Jerry</td>
+                <td>Springer</td>
+                <td>Anchovy</td>
+                <td>6/2/23</td>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>Wonderland</td>
+                <td>Sausage</td>
+                <td>6/1/23</td>
+            </tr>
+            <tr>
+                <td>Khalil</td>
+                <td>Gibran</td>
+                <td>Pepperoni</td>
+                <td>6/1/23</td>
+            </tr>
+            <tr>
+                <td>Joey</td>
+                <td>Gallo</td>
+                <td>Vegetarian</td>
+                <td>5/31/23</td>
+            </tr>
+        </table>
+        <figure class="text-center mb-3">
+            <blockquote class="blockquote">
+                <p>The perfect lover is one who turns into a pizza at 4:00 AM.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Charles Pierce
+            </figcaption>
+        </figure>
+        <p>Khalil Snell &copy; 2023</p>
+    </div>
+</body>
+</html>
